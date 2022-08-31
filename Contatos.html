@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="petshop.css" rel="stylesheet">
+    <title>PetSafe</title>
+    <style>
+        
+         *{
+            font-family: Arial;
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+         }
+         #Menu ul{
+            list-style: none;
+            padding: 0;
+            background-color: #FF8FB1;
+            text-align: center;
+         }
+         #Menu ul li{
+            display: inline;
+
+         }
+         #Menu ul li a{
+            color: black;
+            padding: 20px;
+            display: inline-block;
+            text-decoration: none;
+         }
+         #Menu ul li a:hover{
+            background-color: #fffa9e;
+         }
+         #Menu ul li:last-child a{
+            float: right;
+            background-color: #FF8FB1;
+            padding: 20px
+         }
+         #Menu ul li:last-child a:hover{
+            background-color: #fffa9e;
+         }
+         body{
+        
+            background-color: #F7ECDE;
+          }
+         h1{
+            text-align: center;
+            font-size: 45px;
+         }
+         form{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            border: 10px solid #FF8FB1;
+            border-radius: 10%;
+         }
+         p{
+            text-align: center;
+         }
+         .feedback{
+            width:150px;
+            height:250px;
+         }
+         .procuro{
+            text-align: center;
+            align-items: center;
+         }
+         #curioso{
+            border: 5px solid #FF8FB1;
+            border-radius: 50%;
+         }
+         footer{
+             background: #FF8FB1;
+             position: absolute;
+             bottom: -10;
+             width: 100%;
+             height: 50px;
+         }
+         #baixo ul{
+            list-style: none;
+            padding: 0;
+            background-color: #FF8FB1;
+            text-align: center;
+         }
+         #baixo ul li{
+            display: inline-flex;
+         }
+         #baixo ul li a{
+            color: black;
+            padding: 20px;
+            display: inline-block;
+            text-decoration: none;
+         }
+         #baixo ul li a:hover{
+            background-color: #fffa9e;
+         }
+    </style>
+</head>
+<body>
+        <nav id="Menu">
+            <ul>
+                <li><img id="logo" src="https://jardimdasamericas.com.br/uploads/2018/09/ico-petshop-7837a-large.png"height="50"width="50"></li>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="Agendamento.html">Agendamento</a></LI>
+                <li><a href="Adoção.html">Adoção</a></li>
+                <li><a href="Contatos.html">Contatos</a></li>
+                <li><a href="#">Entrar</a></li>
+             </ul>
+   
+            <div class="procuro">
+            <br>
+            <h1>Ainda não encontrou o que procura?</h1>
+            <br>
+            <img id="curioso" src="https://www.mundoecologia.com.br/wp-content/uploads/2022/03/Cachorro-Curioso.jpg" height="300"width="300">
+            <br>
+            <h2>Entre em contato conosco!</h2>
+            <p>Para nós sua opinião precisa ser ouvida, por favor, sinta-se a vontade para entrar em contato conosco.
+            </p>
+            <br>
+            <h3><strong>E-mail:</strong></h3>
+            <p>Petsafe@gmail.com.br</p>
+            <br>
+            <h3><strong>Contatos:</strong></h3>
+            <p>(11) 1234-5678 ou (11) 12345-6789</p>
+            <br>
+            <h3><strong>Horário de funcionamento:</strong></h3>
+            <p>De 2º a 6º das 8h à 21h, sábados das 8h às 18h e aos domingos e feriados das 9h às 16h</p> 
+            <br>
+        
+            </div>
+            <form>
+                <label for="nome"><strong>Me diga seu nome!</strong></label>
+                <input type="text" class="nome" name="nome" id="nome">  
+                <label for="email"><strong>Me diga seu e-mail!</strong></label>
+                <input type="email" class="email" name="name" id="email">
+                <label for="feedback"><strong>Nos deixe saber o que você pensa!</strong></label>
+                <input type="text" class="feedback" name="nime" id="feedback">
+
+            </form>
+        </div>
+        <br>
+        <div id="footer">
+         <footer id="baixo">
+         <ul>
+             <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png"height="40"width="40"></a></li>
+             <li><a href="#"><img src="https://grady.uga.edu/wp-content/uploads/2020/02/icon-02-512.png"height="40"width="40"></a></li>
+             <li><a href="#"><img src="https://assets.stickpng.com/images/5a4e2ef62da5ad73df7efe6e.png"height="40"width="40"></a></li>
+         </ul>
+         </footer>
+        </div>
+
+    
+</body>
+</html>

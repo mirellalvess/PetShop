@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="petshop.css" rel="stylesheet">
+    <title>PetSafe</title>
+    <style>
+
+        *{
+            font-family: Arial;
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+         }
+        #Menu ul{
+            list-style: none;
+            padding: 0;
+            background-color: #FF8FB1;
+            text-align: center;
+        }
+        #Menu ul li{
+            display: inline;
+
+        }
+        #Menu ul li a{
+            color: black;
+            padding: 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        #Menu ul li a:hover{
+            background-color: #fffa9e;
+        }
+        #Menu ul li:last-child a{
+            float: right;
+            background-color: #FF8FB1;
+        }
+        #Menu ul li:last-child a:hover{
+            background-color: #fffa9e;
+        }
+        body{
+        
+            background-color: #F7ECDE;
+          }
+        h1 {
+            font-size: 45px;
+
+        }
+        h2{
+            font-size: 35px;
+        }
+        #animais{
+            border-radius: 50%;
+            border: 5px solid #FF8FB1;
+        }
+        #home{
+            text-align: center;
+        }
+        #logo{
+            text-align:initial
+        }
+        footer{
+             background: #FF8FB1;
+             position: absolute;
+             bottom: -10;
+             width: 100%;
+             height: 50px;
+        }
+        #baixo ul{
+            list-style: none;
+            padding: 0;
+            background-color: #FF8FB1;
+            text-align: center;
+        }
+        #baixo ul li{
+            display: inline;
+        }
+        #baixo ul li a{
+            color: black;
+            padding: 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        #baixo ul li a:hover{
+            background-color: #fffa9e;
+        }
+        div{
+            text-align: center;
+        }
+        #tabelinha{
+            background-color: #FF8FB1;
+        }
+        .comprar{
+            width: 100px; 
+            background-color: #FF8FB1;
+            display: inline;
+            margin: 0 74px;
+            text-align: center;
+        }
+        .comprar2{
+            width: 100px; 
+            background-color: #FF8FB1;
+            display: inline;
+            margin: 0 73px;
+        }
+    </style>
+</head>
+<body>
+      <nav id="Menu">
+          <ul>
+              <li><img id="logo" src="https://jardimdasamericas.com.br/uploads/2018/09/ico-petshop-7837a-large.png"height="50"width="50"></li>
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="Produtos.html">Produtos</a></li>
+              <li><a href="Agendamento.html">Agendamento</a></LI>
+              <li><a href="Adoção.html">Adoção</a></li>
+              <li><a href="Contatos.html">Contatos</a></li>
+              <li><a href="#">Entrar</a></li>
+           </ul>
+      </nav>
+        
+        <div>
+        <br>
+        <h1>Nossos produtos</h1>
+        </br>
+        <br>
+        <h2>Cachorros</h2>
+        </br>
+        </div>
+
+        <div>
+        <table>
+            <table border="1">
+
+             <tr>
+                <th><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSzM2KZWwHBOAC7EBtxS0zg9GbTSkyV0zzWSEU6wSUMavtL6fMN8gIjd-fkHmBF&usqp=CAc" height="150" width="130"></th>
+                <th><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQKHQsaQmYTqrL7dj7oqkaWNeO_mo_jiBP2V2GTnSu-KCBO6gTobseKZhXOdNK9vigBhsmRB4E5JA&usqp=CAc" height="150" width="130"></th>
+                <th><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcS_-8Gza35OOOHXBZKqnFkKZphO6F8CG0uL-ILZUeAUJsAf4cNYroV7DLT5gJzzdweiUZlHkRoqrQ&usqp=CAc" height="150" width="130"></th>
+                <th><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTp9XznVAC4IRHjdbfDcXIFcaz_dirqDU0RlnSoomIErTedTqM1Wjte6-cmGUhtjEVR44aZ-YPs_t0&usqp=CAc"></th>
+                <th><img src="data:image/png;base64,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"></th>
+                <th><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSIed2vRus7TEoL8UqTXSJy-rCZ4t44n2VKzYa5u_1Dddh6szye2lq8frswuoZSjlCFHoughv9nfTo&usqp=CAc"></th>
+             </tr>
+             <tr>
+               <td id="tabelinha">Ração Magnus,sabor carne 10,5kg</td>
+               <td id="tabelinha">Ração Pedigree,sabor carne 10,5kg </td>
+               <td id="tabelinha">Ração Golden,sabor frango 10,5kg</td>
+               <td id="tabelinha">Osso com patinhas para morder</td>
+               <td id="tabelinha">Pelucia para morder em formato de pizza</td>
+               <td id="tabelinha">Tigela de água personalizada</td>
+             </tr>
+             <tr>
+                <td>Porte: Grande</td>
+                <td>Porte: Médio</td>
+                <td>Porte: Pequeno</td>
+                <td>Brinquedo</td>
+                <td>Brinquedo</td>
+                <td>Utilidade</td>
+             </tr>
+             <tr>
+                <td>R$109,99</td>
+                <td>R$99,99</td>
+                <td>R$85,99</td>
+                <td>9,90</td>
+                <td>11,90</td>
+                <td>4,90</td>
+             </tr>
+     </table>
+    <br>
+     <input type="button" class="comprar" name="Comprar" value="Comprar">
+     <input type="button" class="comprar" name="Comprar" value="Comprar">
+     <input type="button" class="comprar" name="Comprar" value="Comprar">
+     <input type="button" class="comprar" name="Comprar" value="Comprar">
+     <input type="button" class="comprar" name="Comprar" value="Comprar">
+     <input type="button" class="comprar" name="Comprar" value="Comprar">
+    </br>
+    <br>
+    <h2>Gatos</h2>
+    </br>
+    </div>
+        <div>
+        <table>
+            <table border="1">
+            <tr>
+                <th><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ7H_M1OHwwzMG7ZIbTC44MT5gppTAJwd7fy0U4Nom8AcdzFonOTxlzqdaXDNfGTiJL35amge18_4Y&usqp=CAc"height="200" width="140"></th>   
+                <th><img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQXBDKkiIGNmvfAlmeQwlasOIO1YZFLU_FTKT4GmMzFTIWZgRIt3eFNS6rd9e-zWPTuY13paAs84Dgx&usqp=CAc"height="200" width="140"></th>
+                <th><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSyziPCznAtgASZ4A8EwlPyk9_dSdIR1XLkZd8RxzQcELdXjeEQrCseNDWCvepfHB99IePV8yUHeQ&usqp=CAc"></th>
+                <th><img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRwQ9p8dQZxlCu-jT1BA4kEPxOyTuSYsSb2CIdKNqM6vWkLXyOa6iikXE8x2KuGhVYyNmKNhxTvwmc&usqp=CAc"></th>
+                <th><img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcT7waNwTWGeTJ2CuBYjZgZMMDC89BNo0Lx9Ox5wondnlYELwktED8DP4o5YE001z0W6_wVlrSXoHMNf&usqp=CAc"></th>
+                <th><img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSDLWfqRj_Ql3j_YGpcNuQxNiDD7ai2MvKoYzOj2dVAsB2FHLgZhsM74rnpSOlY4pLL1dBEDC70kXTd&usqp=CAc"></th>
+            </tr>
+            <tr>
+                <td id="tabelinha">Ração Golden, sabor carne 10,1kg</td>
+                <td id="tabelinha">Ração Whiskas, sabor carne 10,1kg</td>
+                <td id="tabelinha">Arranhador c/cama e brinquedo</td>
+                <td id="tabelinha">Caixa de areia em formato de casa</td>
+                <td id="tabelinha">Areia PipiCat classíca, 12kg</td>
+                <td id="tabelinha">Brinquedo Varinha de cores sortidas</td>
+            </tr>
+            <tr>
+                <td>Gatos Adultos</td>
+                <td>Gatos Adultos</td>
+                <td>Arranhador</td>
+                <td>Caixa de areia</td>
+                <td>Areia para gatos</td>
+                <td>Brinquedo</td>
+            </tr>
+            <tr>
+                <td>99,99</td>
+                <td>89,99</td>
+                <td>19,90</td>
+                <td>39,99</td>
+                <td>34,90</td>
+                <td>19,90</td>
+            </tr>
+        </table>
+    </div>
+   <br>
+    <input type="button" class="comprar2" name="Comprar2" value="Comprar">
+    <input type="button" class="comprar2" name="Comprar2" value="Comprar">
+    <input type="button" class="comprar2" name="Comprar2" value="Comprar">
+    <input type="button" class="comprar2" name="Comprar2" value="Comprar">
+    <input type="button" class="comprar2" name="Comprar2" value="Comprar">
+    <input type="button" class="comprar2" name="Comprar2" value="Comprar">
+   </br>
+    <br>
+    <br>
+   <div id="footer">
+    <footer id="baixo">
+    <ul>
+        <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png"height="40"width="40"></a></li>
+        <li><a href="#"><img src="https://grady.uga.edu/wp-content/uploads/2020/02/icon-02-512.png"height="40"width="40"></a></li>
+        <li><a href="#"><img src="https://assets.stickpng.com/images/5a4e2ef62da5ad73df7efe6e.png"height="40"width="40"></a></li>
+    </ul>
+    </footer>
+   </div>
+</body>
+</html>

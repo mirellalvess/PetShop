@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" href="petshop.css" rel="stylesheet">
+    <title>PetSafe</title>
+    <style>
+    
+        *{
+            font-family: Arial;
+            margin: 0 auto;
+            padding: 0;
+            box-sizing: border-box;
+         }
+        #Menu ul{
+            list-style: none;
+            padding: 0;
+            background-color: #FF8FB1;
+            text-align: center;
+        }
+        #Menu ul li{
+            display: inline;
+
+        }
+        #Menu ul li a{
+            color: black;
+            padding: 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        #Menu ul li a:hover{
+            background-color: #fffa9e;
+        }
+        #Menu ul li:last-child a{
+            float: right;
+            background-color: #FF8FB1;
+        }
+        #Menu ul li:last-child a:hover{
+            background-color: #fffa9e;
+        }
+        body{
+        
+            background-color: #F7ECDE;
+          }
+        h1 {
+            font-size: 45px;
+
+        }
+        #animais{
+            border-radius: 50%;
+            border: 5px solid #FF8FB1;
+        }
+        #home{
+            text-align: center;
+        }
+        #logo{
+            text-align:initial
+        }
+        h1{
+            text-align: center;
+        }
+        h2{
+            text-align: center;
+        }
+        form{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            border: 10px solid #FF8FB1;
+            border-radius: 10%;
+        }
+        #cuidado{
+            text-align: center;
+            align-items: center;
+
+        }
+        #ani{
+            border: 10px solid #FF8FB1;
+            border-radius: 50%;
+        }
+         #mais{
+            border: 10px solid #FF8FB1;
+            border-radius: 50%;
+        }
+        #informaçao{
+            text-align: center;
+            align-items: center;
+        }
+        p{
+            letter-spacing: 1px;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <nav id="Menu">
+        <ul>
+            <li><img id="logo" src="https://jardimdasamericas.com.br/uploads/2018/09/ico-petshop-7837a-large.png"height="50"width="50"></li>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Produtos.html">Produtos</a></li>
+            <li><a href="Agendamento.html">Agendamento</a></LI>
+            <li><a href="Adoção.html">Adoção</a></li>
+            <li><a href="Contatos.html">Contatos</a></li>
+            <li><a href="#">Entrar</a></li>
+         </ul>
+    </nav>
+        <br>
+        <h1>Agendamento</h1>
+        <br>
+    <form>
+    <label for="nome">Seu nome:</label>
+    <input type="text" class="nome" name="nome" id="nome required"> 
+    
+      <label for="pet">Nome do seu pet:</label>
+      <input type="text" class="pet" name="pet" id="nome pet"> 
+      
+                <label for="procedimento">Procedimento:</label>
+                <select name="procedimento" value="Nos diga!">
+                <option value="Castração">Castração</option>
+                <option value="BanhoeTosa">Banho e Tosa</option>
+                <option value="Vacinas">Vacinas</option>
+                <option value="Consulta">Consulta</option>
+                </select>
+                
+             <label for="data">Marque o seu dia!</label>
+             <input type="date" class="data" name="nime" id="data"> 
+             
+        <label for="domestico">Espécie do pet:</label>
+        <input type="radio" id="cachorro" name="domestico" value="Cachorro">
+        <label for="domestico">Cachorro</label><br>
+        <input type="radio" id="gato" name="domestico" value="Gato">
+        <label for="domestico">Gato</label><br>
+
+    <label for="endereco">Endereço:</label>
+    <input type="text" class="endereco" name="endereco" id="seu endereco">
+    
+        <label for="numero">Seu número de contato:</label>
+        <input type="text" class="numero" name="numero" id="contato">
+
+      <label for="email">Seu e-mail</label>
+      <input type="email" class="email" name="name" id="email">
+      <br>
+               <input type="button" class="enviar" name="enviar" value="Enviar">
+    </form>
+        <br>
+        <h2>Informações importantes sobre o atendimento!</h2>
+        <br>
+        <div id="informaçao">
+        <img id="ani" src="https://soubh.uai.com.br/uploads/post/image/10197/main_agenda-cachorros.jpg" height="250" width="250">
+        </div>  
+        <br>  
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus aliquam pariatur dolorum quaerat veniam eligendi, doloribus quisquam, tempora obcaecati cumque repellat! Voluptatum cumque suscipit impedit exercitationem repudiandae distinctio earum ipsa quae quisquam doloribus quis dignissimos eos facere ratione eius, reiciendis voluptatem aperiam voluptate esse sed. Aliquid, iste consequatur. Nesciunt nemo tempore quas eaque voluptatibus unde ab, sapiente itaque repudiandae incidunt quae animi reiciendis doloremque, quaerat aliquam blanditiis aspernatur nam. Alias voluptatem labore nisi dolore, est itaque officia delectus commodi dolor quos atque, odit eaque placeat minima ratione asperiores, reiciendis dolorem blanditiis ipsam nemo explicabo libero ipsum? Atque tempora dolore ratione quod harum ipsam, laboriosam ipsum adipisci vel delectus odio magnam! Placeat, temporibus quod. Enim consequuntur, nisi nostrum architecto nemo eveniet. Perspiciatis neque id explicabo exercitationem? Corporis inventore veritatis perferendis consequuntur accusamus numquam vitae repellendus, in, repellat modi adipisci cumque, minima eligendi culpa. Deserunt similique nulla nihil dolore? Doloremque maxime nulla ducimus, id, quos pariatur fuga adipisci earum, veniam eligendi omnis rerum aperiam eum nostrum rem. Deleniti aut suscipit iure mollitia repudiandae corrupti accusantium totam perferendis tempora, amet voluptate iste vero nobis nisi dignissimos? Nam eveniet voluptate debitis ea aspernatur nihil ipsa unde vitae, consequatur nulla dolorum, sint velit, architecto reiciendis.</p>
+        <br>
+        <h2>Cuidados!</h2>
+        <br>
+        <div id="cuidado">
+            <img id="mais" src="https://cdn.ocp.news/2022/07/6-duvidas-respondidas-sobre-a-castracao-de-filhotes.jpeg" height="250" width="250">
+        </div>
+        <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit saepe numquam eius! Quaerat voluptas ea fugit quisquam, velit cupiditate laboriosam, soluta ducimus porro ut eos assumenda. Cupiditate earum dolores placeat repudiandae deserunt dignissimos sapiente tempora unde similique. Soluta dolor quidem ipsa dolorem, ipsam consequatur, accusantium autem, animi voluptas sint voluptates culpa quibusdam. Soluta ratione recusandae nesciunt enim voluptates cum amet? Ducimus temporibus modi ad reiciendis magni harum corporis, voluptatum laborum dignissimos amet quidem, porro quos illo molestias ea beatae, incidunt eum culpa! Doloribus pariatur aut hic ipsam. Neque doloremque incidunt voluptatum quod consequuntur tenetur consectetur. Velit possimus distinctio dicta veniam enim, impedit dolores ullam blanditiis fugiat. Quos incidunt voluptatum dicta corporis, dolores quia! Quod excepturi culpa eum voluptate blanditiis, itaque delectus adipisci dolore fugiat molestiae qui, at mollitia eius? Neque, distinctio fuga? Labore alias, odio eligendi, tempora sint sit minima, quae nihil sed reiciendis eaque! Quae porro tempora id sequi reiciendis veniam aspernatur at neque earum itaque tempore, fuga soluta quia ducimus dignissimos pariatur, unde cupiditate? Possimus nemo quasi, ut sapiente architecto magnam asperiores, unde soluta eum odit a. Totam aspernatur incidunt deleniti dolorum reiciendis expedita commodi sapiente iusto repellat, quae repudiandae, impedit dolores dolor amet architecto illo eaque distinctio.</p>
+        <br>
+
+        <div id="footer">
+            <footer id="baixo">
+            <ul>
+                <li><a href="#"><img src="https://cdn-icons-png.flaticon.com/512/87/87390.png"height="40"width="40"></a></li>
+                <li><a href="#"><img src="https://grady.uga.edu/wp-content/uploads/2020/02/icon-02-512.png"height="40"width="40"></a></li>
+                <li><a href="#"><img src="https://assets.stickpng.com/images/5a4e2ef62da5ad73df7efe6e.png"height="40"width="40"></a></li>
+            </ul>
+            </footer>
+           </div>
+        </body>
+</html>
